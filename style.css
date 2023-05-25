@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* *,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #9b34eb;
+}
+
+#wrapper {
+    background-color: #000;
+    font-family: 'Montserrat';
+    min-height: 110vh;
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 100%;
+    max-width: 600px;
+    color: #fff;
+} */
+
+/* .header {
+  display: flex;
+  margin-left: 10px;
+  margin-bottom: 25px;
+  justify-content: space-around;
+
+}
+
+img {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.header p {
+  padding: 14px;
+  font-weight: 300;
+  font-family: 'Montserrat';
+} */
+
+
+/* h1 {
+  text-align: center;
+}
+
+section {
+  margin: 2em 1em;
+} */
+
+/* hr {
+    width:50%;
+    margin:30px auto;
+} */
+
+/* section > div {
+    padding: 2em;
+    border: 2px solid grey;
+    border-radius: 25px;
+    font-family: 'Sacramento';
+    display: flex;
+    justify-content: space-around;
+}
+
+section div p {
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+section > form {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid grey;
+    margin: 30px;
+    font-weight: 400;
+}
+
+label {
+    font-size: 26px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 18px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #c999f0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+button {
+  float: right;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+button:hover {
+  background-color: #c999f0;
+} */

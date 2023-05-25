@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account System</title>
+    <link rel="stylesheet" href="./output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;700;900&family=Lilita+One&family=Montserrat:wght@100;300;400;500;900&family=Oswald&family=Sacramento&family=Space+Mono&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body class="">
+       <header class="bg-blue-500 text-center h-20 flex justify-center items-center text-white text-xl">
+        <h1>Account Management System</h1>
+       </header>
+        <div class="flex justify-between px-10 pb-10 min-h-[90vh] bg-slate-100 pt-10">
+
+            <!-- User One -->
+            <section class="shadow-md rounded-md flex-[0.4] p-5 bg-white" id="user-one">
+                <div class="mb-4">
+                    <p id="user_one_username"></p>    
+                    <h1 id="user_one_balance"></h1>
+                    <p id="user_one_account_number"></p>    
+                </div>
+                <div class="flex flex-col gap-y-6" >
+                 <div class="">
+                    <div class="mb-2">
+                        <h2 class="font-semibold ">Withdrawal Form</h2>
+                    </div>
+                    <form class="withdraw-form">
+                       <div class="mb-3">
+                        <label for="withdrawal" class="inline-block mb-2 capitalize">Withdrawal</label><br>
+                        <input type="number" id="withdrawal" placeholder="Enter An Amount To Withdraw" name="withdrawal" class="w-full border outline-none border-gray-400 border-opacity-30 rounded-sm py-2 px-4 " >
+                       </div>
+                        <button type="submit" class="bg-blue-500 min-w-[10rem] py-2 text-white rounded-md shadow-md text-sm">Withdraw</button>
+                    </form>
+                 </div>
+                <div class="">
+                    <div class="mb-2">
+                        <h2 class="font-semibold ">Deposit Form</h2>
+                    </div>
+                    <form class="deposit-form">
+                        <div class="mb-3">
+                            <label for="deposit" class="inline-block mb-2 capitalize">Deposit</label><br>
+                            <input type="number" id="deposit" placeholder="Enter An Amount To Deposit" name="deposit" class="w-full border outline-none border-gray-400 border-opacity-30 rounded-sm py-2 px-4 " >
+                           </div>
+                            <button type="submit" class="bg-blue-500 min-w-[10rem] py-2 text-white rounded-md shadow-md text-sm">Deposit</button>
+                    </form>
+                </div>
+               <div class="">
+                <div class="mb-2">
+                    <h2 class="font-semibold ">Transfer Form</h2>
+                </div>
+                
+                <form class="transfer-form">
+                    <div class="mb-3">
+                        <label for="transfer" class="inline-block mb-2 capitalize">Account Number</label><br>
+                        <input type="number" id="account" placeholder="Enter An Account Number" name="account" class="w-full border outline-none border-gray-400 border-opacity-30 rounded-sm py-2 px-4 " >
+                       </div>
+
+                       <div class="mb-3">
+                        <label for="transfer" class="inline-block mb-2 capitalize">Amount</label><br>
+                        <input type="number" id="transfer" placeholder="Enter An Amount To Transfer" name="transfer" class="w-full border outline-none border-gray-400 border-opacity-30 rounded-sm py-2 px-4 " >
+                       </div>
+                        <button type="submit" class="bg-blue-500 min-w-[10rem] py-2 text-white rounded-md shadow-md text-sm">Transfer</button>
+                </form>
+               </div>
+            </div>
+            </section>
+
+            <!-- User Two -->
+            <section class="shadow-md rounded-md flex-[0.4] p-5 bg-white" id="user-two">
+                <div class="mb-4">
+                    <p id="user_two_username"></p>    
+                    <h1 id="user_two_balance"></h1>
+                    <p id="user_two_account_number"></p>    
+                </div>
+                <div class="flex flex-col gap-y-6" >
+                 <div class="">
+                    <div class="mb-2">
+                        <h2 class="font-semibold ">Withdrawal Form</h2>
+                    </div>
+                    <form class="withdraw-form">
+                       <div class="mb-3">
+                        <label for="withdrawal" class="inline-block mb-2 capitalize">Withdrawal</label><br>
+                        <input type="number" id="withdrawal" placeholder="Enter An Amount To Withdraw" name="withdrawal" class="w-full border outline-none border-gray-400 border-opacity-30 rounded-sm py-2 px-4 " >
+                       </div>
+                        <button type="submit" class="bg-blue-500 min-w-[10rem] py-2 text-white rounded-md shadow-md text-sm">Withdraw</button>
+                    </form>
+                 </div>
+                <div class="">
+                    <div class="mb-2">
+                        <h2 class="font-semibold ">Deposit Form</h2>
+                    </div>
+                    <form class="deposit-form">
+                        <div class="mb-3">
+                            <label for="deposit" class="inline-block mb-2 capitalize">Deposit</label><br>
+                            <input type="number" id="deposit" placeholder="Enter An Amount To Deposit" name="deposit" class="w-full border outline-none border-gray-400 border-opacity-30 rounded-sm py-2 px-4 " >
+                           </div>
+                            <button type="submit" class="bg-blue-500 min-w-[10rem] py-2 text-white rounded-md shadow-md text-sm">Deposit</button>
+                        </form>
+                </div>
+               <div class="">
+                <div class="mb-2">
+                    <h2 class="font-semibold ">Transfer Form</h2>
+                </div>
+                
+                <form class="transfer-form" >
+                    <div class="mb-3">
+                        <label for="transfer" class="inline-block mb-2 capitalize">Account Number</label><br>
+                        <input type="number" id="account" placeholder="Enter An Account Number" name="account" class="w-full border outline-none border-gray-400 border-opacity-30 rounded-sm py-2 px-4 " >
+                       </div>
+
+                       <div class="mb-3">
+                        <label for="transfer" class="inline-block mb-2 capitalize">Amount</label><br>
+                        <input type="number" id="transfer" placeholder="Enter An Amount To Transfer" name="transfer" class="w-full border outline-none border-gray-400 border-opacity-30 rounded-sm py-2 px-4 " >
+                       </div>
+                        <button type="submit" class="bg-blue-500 min-w-[10rem] py-2 text-white rounded-md shadow-md text-sm">Transfer</button>
+                </form>
+               </div>
+            </div>
+            </section>
+            <!-- <section class="shadow-md rounded-md flex-[0.4] p-5">
+                <div class="">
+                    User Two
+                    <div class="">
+                        <h1 id="user_two_balance"></h1>
+                        <p id="user_two_account_number"></p>
+                        <p id="user_two_username"></p>
+                    </div>
+                </div>
+                <form>
+                    <label for="withdrawal">Withdrawal: </label><br>
+                    <input type="number" id="withdrawal" name="withdrawal">
+                    <button type="submit" class="btn btn-primary">Withdraw</button>
+                </form>
+                <form>
+                    <label for="deposit">Deposit: </label><br>
+                    <input type="number" id="deposit" name="deposit">
+                    <button type="submit" class="btn btn-primary">Deposit</button>
+                </form>
+                <form>
+                    <label for="transfer">Transfer: </label><br>
+                    <input type="number" id="transfer" name="transfer">
+                    <button type="submit" class="btn btn-primary">Transfer</button>
+                </form>
+            </section>
+        </div> -->
+    <script src="./index.js" ></script>
+</body>
+</html>
